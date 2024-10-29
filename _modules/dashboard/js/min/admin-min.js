@@ -1,0 +1,1 @@
+jQuery(document).ready(function(n){if(n("input,select").conditional(),"undefined"!=typeof Clipboard&&n(".clipboard-js").length>0){var e=new Clipboard(".clipboard-js");n(document).on("click",".clipboard-js",function(n){n.preventDefault()})}});

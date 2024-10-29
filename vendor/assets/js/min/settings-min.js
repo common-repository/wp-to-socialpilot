@@ -1,0 +1,1 @@
+jQuery(document).ready(function(t){t("a.add-custom-tag").click(function(e){e.preventDefault();var c=t("tbody tr.hidden",t(this).closest("table"));t("tbody",t(this).closest("table")).append("<tr>"+t(c).html()+"</tr>")}),t(document).on("click","a.delete-custom-tag",function(e){e.preventDefault(),t(this).closest("tr").remove()})});
